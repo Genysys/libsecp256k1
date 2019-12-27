@@ -8,7 +8,7 @@ repository = "https://github.com/tari-labs/libsecp256k1-rs/"
 keywords = [ "crypto", "ECDSA", "secp256k1" ]
 
 [dependencies]
-rand = { version = "0.4", default-features = false }
+rand = { version = "0.7.2", default-features = false }
 hmac-drbg = "0.1"
 sha2 = "0.6"
 digest = "0.6"

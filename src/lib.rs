@@ -4,7 +4,7 @@ extern crate sha2;
 extern crate rand;
 extern crate hex;
 
-pub use rand::thread_rng;
+pub use rand::prelude::*;
 
 #[macro_use]
 pub mod secp256k1;
